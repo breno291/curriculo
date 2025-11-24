@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breno Ricardo Barboza de Freitas - Currículo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            font-size: 0.95em;
+        }
+        
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .experience-item, .education-item {
+            margin-bottom: 30px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .job-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .company {
+            color: #667eea;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        
+        .period {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+            white-space: nowrap;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .skill-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .skill-name {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .skill-bar {
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .skill-level {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px;
+        }
+        
+        .languages {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .language-item {
+            padding: 15px 30px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .content {
+                padding: 20px;
+            }
+            .job-header {
+                flex-direction: column;
+            }
+            .period {
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Breno Ricardo Barboza de Freitas</h1>
+            <div class="contact-info">
+                <a href="mailto:brenobcb291@gmail.com">✉ brenobcb291@gmail.com</a>
+                <a href="tel:81982742242">📱 (81) 98274-2242</a>
+                <a href="https://linkedin.com/in/breno-freitas-40988209b" target="_blank">🔗 LinkedIn</a>
+            </div>
+        </header>
+        
+        <div class="content">
+            <section>
+                <h2>Experiência Profissional</h2>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Desenvolvedor de Sistema Pleno</div>
+                            <div class="company">K&gpi soluções em Informática LTDA, Ribeirão Preto/SP</div>
+                        </div>
+                        <div class="period">Ago 2022 - Atual</div>
+                    </div>
+                    <ul>
+                        <li>Desenvolvimento e manutenção de sistemas utilizando metodologias ágeis como Scrum</li>
+                        <li>Análise e modelagem de requisitos para criação de soluções alinhadas às necessidades dos clientes</li>
+                        <li>Uso de ferramentas modernas de desenvolvimento, com versionamento de código via Git e práticas de integração contínua (CI/CD)</li>
+                        <li>Aplicação de padrões de projeto e boas práticas multithreading na entrega de projetos e melhoria contínua dos processos de desenvolvimento</li>
+                        <li>Integração de APIs externas, serviços web e consumo de endpoints em PHP, Node.js e JavaScript</li>
+                        <li>Participação ativa no planejamento e documentação de sistemas para garantir clareza e alinhamento no desenvolvimento</li>
+                        <li>Desenvolvimento de scripts e automação de tarefas utilizando Python</li>
+                        <li>Manutenção e administração de bases de dados, garantindo integridade e segurança das informações, com experiência em MySQL e MongoDB</li>
+                        <li>Atendimento de suporte técnico para usuários internos, solucionando dúvidas e problemas relacionados ao sistema</li>
+                        <li>Criação e manutenção de ambientes de desenvolvimento com Docker</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Auxiliar de Lavanderia</div>
+                            <div class="company">Kppi Soluções em Informática LTDA, Surubim/PE</div>
+                        </div>
+                        <div class="period">Ago 2021 - Jul 2022</div>
+                    </div>
+                    <ul>
+                        <li>Garantia da qualidade da lavagem e conservação dos materiais através do controle rigoroso do processo</li>
+                        <li>Auxílio no controle de estoque de insumos, como detergentes e produtos de limpeza, informando a necessidade de reposição</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Menor Aprendiz - Administrativo</div>
+                            <div class="company">Armazém Catamara Suína LTDA, Caruaru - Recife/PE</div>
+                        </div>
+                        <div class="period">Out 2016 - Mar 2018</div>
+                    </div>
+                    <ul>
+                        <li>Auxílio nas atividades administrativas diárias, como organização de documentos e controle de arquivos</li>
+                        <li>Contribuição para a elaboração de relatórios e planilhas utilizando ferramentas do pacote Office</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Formação Acadêmica</h2>
+                
+                <div class="education-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Engenharia de Software</div>
+                            <div class="company">Estácio</div>
+                        </div>
+                        <div class="period">Out 2025 - Atual</div>
+                    </div>
+                    <ul>
+                        <li>Domínio de metodologias de desenvolvimento de software como Agile e Scrum</li>
+                        <li>Capacidade de projetar e implementar sistemas utilizando padrões de design de software</li>
+                        <li>Conhecimento em análise e modelagem de requisitos para garantir soluções alinhadas às necessidades do cliente</li>
+                        <li>Experiência com testes de software para assegurar qualidade e confiabilidade dos sistemas desenvolvidos</li>
+                        <li>Familiaridade com ferramentas de versionamento de código e integração contínua para otimizar a entrega de software</li>
+                    </ul>
+                </div>
+                
+                <div class="education-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Comportamento Organizacional</div>
+                            <div class="company">Eskada</div>
+                        </div>
+                        <div class="period">Dez 2022</div>
+                    </div>
+                    <ul>
+                        <li>Compreensão dos principais conceitos de comportamento organizacional e sua aplicação no ambiente de trabalho</li>
+                        <li>Estudo das dinâmicas de grupo e influência no desempenho das equipes e no desenvolvimento</li>
+                        <li>Análise dos estilos de liderança e sua eficácia na gestão de times de tecnologia</li>
+                    </ul>
+                </div>
+                
+                <div class="education-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Gestão com Pessoas</div>
+                            <div class="company">Eskada</div>
+                        </div>
+                        <div class="period">Dez 2022</div>
+                    </div>
+                    <ul>
+                        <li>Compreensão aprofundada dos fundamentos da gestão de pessoas em ambientes organizacionais</li>
+                        <li>Desenvolvimento de habilidades de liderança e motivação para equipes de alta performance</li>
+                    </ul>
+                </div>
+                
+                <div class="education-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Programa 1000Devs — Turma 1 (2021)</div>
+                            <div class="company">Mesttra</div>
+                        </div>
+                        <div class="period">Jul 2021 - Dez 2021</div>
+                    </div>
+                    <ul>
+                        <li>Aprendizado prático de linguagens de programação fundamentais para desenvolvimento web e mobile</li>
+                        <li>Aplicação de conceitos de lógica de programação em projetos reais durante o programa</li>
+                        <li>Utilização de metodologias ágeis para gestão de projetos de desenvolvimento de software</li>
+                        <li>Experiência no desenvolvimento de projetos colaborativos, promovendo o trabalho em equipe e a resolução de problemas técnicos</li>
+                    </ul>
+                </div>
+                
+                <div class="education-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Inglês Profissional (Pré-Intermediário)</div>
+                            <div class="company">Unilec, Recife/PE</div>
+                        </div>
+                        <div class="period">Jan 2019 - Jun 2019</div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Ensino Médio Completo</div>
+                            <div class="company">Escola Estadual Edmur Arlindo de Oliveira</div>
+                        </div>
+                        <div class="period">Jan 2015 - Dez 2017</div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Competências Técnicas</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-name">PHP</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Python</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">MySQL</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">MongoDB</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Docker</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">HTML/CSS</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Git</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Metodologias Scrum</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Desenvolvimento Web</div>
+                        <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Habilidades Interpessoais</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-name">Comunicação Eficaz</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Trabalho em Equipe</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Resolução de Problemas</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Proatividade</div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Idiomas</h2>
+                <div class="languages">
+                    <div class="language-item">🇧🇷 Português - Nativo</div>
+                    <div class="language-item">🇺🇸 Inglês - Pré-Intermediário</div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
